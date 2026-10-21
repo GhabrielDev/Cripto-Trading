@@ -1,4 +1,4 @@
-def menu_principal():
+def main_menu():
     print(""" ----- MENU ----
     1.Realizar operacion
     2.Ver registro de Operaciones
@@ -53,4 +53,10 @@ def market_type():
         2.Mercado de Futuros (Derivados)
 
     """)
+    
+def buy_sell():
+    print(""" ---- Compra o venta ----
+    1.Buy
+    2.Sell
+     """)
 

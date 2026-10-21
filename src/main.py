@@ -1,8 +1,9 @@
-import calculos as cal
+import calculation as cal
 import api
-import interfaz as iu
+import interface as iu
+import automation as auto
 
-iu.menu_principal()
+iu.main_menu()
 choice = input("Seleccione un numero:")
 
 if choice == 1:
